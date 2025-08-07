@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-template-rows: repeat(10, 40px);
+  gap: 2px;
+  margin: 20px auto;
+  width: max-content;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.p1 {
+  background-color: red;
+}
+
+.p2 {
+  background-color: blue;
+}
+
+.p3 {
+  background-color: green;
+}
+
+#controls button {
+  margin: 5px;
+  padding: 10px;
+}
+
+.cell {
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+}
